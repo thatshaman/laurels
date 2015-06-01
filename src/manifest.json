@@ -3,7 +3,7 @@
     "short_name": "Laurel Converter",
     "name": "Laurel Converter",
     "version": "1.0",
-    "start_url": "index.html",
+    "start_url": "http://thatshaman.github.io/laurels/index.html",
     "display": "standalone",
     "icons": [
         {
