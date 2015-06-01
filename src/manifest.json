@@ -1,0 +1,15 @@
+﻿{
+    "manifest_version": 2,
+    "short_name": "Laurel Converter",
+    "name": "Laurel Converter",
+    "version": "1.0",
+    "start_url": "index.html",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "http://wiki.guildwars2.com/images/b/b4/Bag_of_Laurels.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        }
+    ]
+}

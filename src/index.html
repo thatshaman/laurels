@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Laurel Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+
+    <link href="manifest.json" rel="manifest">
+    <link href="https://d1h9a8s8eodvjz.cloudfront.net/fonts/menomonia/08-02-12/menomonia.css" rel="stylesheet" />
+    <link href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" rel="stylesheet" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="app.js"></script>
+</head>
+<body>
+    <div data-role="page" class="type-interior" data-theme="b" id="mainPage">
+        <div data-role="header" data-position="fixed">
+            <div data-role="navbar" data-position="fixed">
+                <ul>
+                    <li>
+                        <a href="#" id="link_low" data-ajax="false" class="ui-btn ui-btn-icon-none">
+                            LOW<br />
+                            <span id="low" style="font-size: 7pt"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="link_average" data-ajax="false" class="ui-btn-active ui-btn ui-btn-icon-none">
+                            AVERAGE<br />
+                            <span id="avg" style="font-size: 7pt"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="link_high" data-ajax="false" class="ui-btn ui-btn-icon-none">
+                            HIGH<br />
+                            <span id="high" style="font-size: 7pt"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="content">
+            <ul id="items" data-icon="false" data-role="listview" data-filter="true" data-filter-placeholder="Search..." data-inset="true"></ul>
+        </div>
+    </div>
+</body>
+</html>

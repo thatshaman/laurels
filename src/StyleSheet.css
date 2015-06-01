@@ -1,0 +1,53 @@
+﻿* {
+    font-family: Menomonia !important;
+}
+
+.coin {
+    max-height: 16px !important;
+    max-width: 16px !important;
+    vertical-align: middle;
+}
+
+.rarity_Trash {
+    color: #808080 !important;
+}
+
+.rarity_Basic {
+    color: #ffffff !important;
+}
+
+.rarity_Fine {
+    color: #4f9dfe !important;
+}
+
+.rarity_Masterwork {
+    color: #2dc50e !important;
+}
+
+.rarity_Rare {
+    color: #ffe51f !important;
+}
+
+.rarity_Exotic {
+    color: #fda500 !important;
+}
+
+.rarity_Ascended {
+    color: #ee3388 !important;
+}
+
+.rarity_Legendary {
+    color: #a02ef7 !important;
+}
+
+.ui-listview .ui-li-has-thumb > img:first-child,
+.ui-listview .ui-li-has-thumb > .ui-btn > img:first-child,
+.ui-listview .ui-li-has-thumb .ui-li-thumb {
+    max-height: 60px;
+    max-width: 60px;
+    min-height: 60px;
+    min-width: 60px;
+    left: 20px;
+    top: 10px;
+    border: solid 1px #808080;
+}
